@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "creeper-in-your-vicinity",
+	"version": "${version}",
+	"name": "Creeper in your vicinity",
+	"description": "",
+	"authors": [
+		"Overcoming Madeline"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/creeper-in-your-vicinity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.creeper.in.your.vicinyty.client.CreeperInYourVicinityClient"
+		],
+        "main": [
+           "com.creeper.in.your.vicinyty.CreeperInYourVicinity"
+        ],
+        "modmenu": [
+          "com.creeper.in.your.vicinyty.client.modmenu.integration.ModMenuIntegration"
+        ]
+
+	},
+	"mixins": [
+		"creeper-in-your-vicinity.mixins.json",
+		{
+			"config": "creeper-in-your-vicinity.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+        "yet_another_config_lib_v3": ">=3.8.1"
+	}
+}

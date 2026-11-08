@@ -1,0 +1,6 @@
+{
+  "warning": {
+    "subtitle": "sound.creeper-in-your-vicinity.warning",
+    "sounds": ["creeper-in-your-vicinity:warning"]
+  }
+}
