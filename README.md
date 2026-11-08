@@ -1,10 +1,9 @@
 # Creeper in your vicinity
 
-## Setup
+[![build](https://github.com/Overcoming-Madeline/Creeper-in-your-vicinity/actions/workflows/build.yml/badge.svg)](https://github.com/Overcoming-Madeline/Creeper-in-your-vicinity/actions/workflows/build.yml)
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Minecraft mod to warn about a creeper nearby
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
-# Creeper-in-your-vicinity
+## Dependencies
+ * YetAnotherConfigLib (YACL) - Required
+ * Mod Menu - Optional
